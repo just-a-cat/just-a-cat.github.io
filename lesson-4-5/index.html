@@ -6,10 +6,11 @@
     <title>Document</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="/lesson-4-5/lib/bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <a class="navbar-brand" href="/index.html"><i class="fas fa-paw"></i></a>
@@ -87,8 +88,67 @@
             -->
         </div>
     </nav>
+    <div>
+        <form>
+            <fieldset>
+                <Legend>Personal Information</Legend>
+                <div>
+                    <label for="cat-name">Cat Name:</label>
+                    <input name="cat-name" type="text" id="cat-name" required>
+                </div>
+                <div>
+                    <label for="cat-email">E-mail:</label>
+                    <input name="cat-email" type="email" id="cat-email" required>
+                </div>
+                <div>
+                    <label for="cat-address">Address:</label>
+                    <input name="cat-address" type="address" id="cat-address" required>
+                </div>
+                <div>
+                    <label for="cat-note">Other notes:</label>
+                    <textarea id="cat-note" name="cat-note" rows="5">Meow!</textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Order Details</legend>
+                <span>Extra topping:</span>
+                <div>
+                    <input type="checkbox" id="nothing" value="0">
+                    <label for="nothing">None</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="topping-1" value="300">
+                    <label for="topping-1">Option 1</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="topping-2" value="600">
+                    <label for="topping-2">Option 2</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="topping-3" value="900">
+                    <label for="topping-3">Option 3</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="topping-4" value="1200">
+                    <label for="topping-4">Option 4</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="topping-5" value="1500">
+                    <label for="topping-5">Option 5</label>
+                </div>
+                <div>
+                    <label for="sauce"></label>
+                    <select id="sauce" name="sauce">
+                        <option value="0">Sauce A</option>
+                        <option value="100">Sauce B</option>
+                    </select>
+                </div>
+            </fieldset>
+            </form>
+    </div>
+            
 
-    <h1>Home Screen. =(^.^)=</h1>
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

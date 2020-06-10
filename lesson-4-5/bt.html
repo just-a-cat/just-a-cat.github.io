@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="/lesson-4-5/lib/bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
+
 <body>
+
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <a class="navbar-brand" href="/index.html"><i class="fas fa-paw"></i></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -87,11 +90,40 @@
             -->
         </div>
     </nav>
+    <div class="container"></div>
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <h3>Order your Meowrger!</h3>
+            <form action="">
+                <div class="form-group">
+                    <label for="">Feltét</label>
+                    <input type="text" name="top-input" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="">Mennyiség</label>
+                    <input class="form-control" type="number" name="amount-input" value="1" > </input>
+                    <small class="form-text text-muted">
+                        Minimum: 1, Maximum: 10
+                    </small>
+                </div>
+                <div class="form-group">
+                    Fizetendő: <span class="show-amount">0</span> money
+                </div>
+                <button onclick="calcAmount()" type="button" class="btn btn-primary"> Megrendelés </button>
+            </form>
+        </div>
+        <div class="col-3"></div>
+    </div>
 
-    <h1>Home Screen. =(^.^)=</h1>
-
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <script src="js/main.js"></script>
+
+
 </body>
+
 </html>

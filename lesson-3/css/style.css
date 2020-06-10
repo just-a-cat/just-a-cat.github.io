@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Jost-Regular";
+    src: url(fonts/Jost/static/Jost-Regular.ttf);
+}
+
+
+h1 {
+    color: rgb(175, 13, 180);
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    text-transform: initial;
+}
+
+h3 {
+    color: rgb(221, 21, 171);
+    font-family: 'Dancing Script', cursive;
+}
+
+
+img {
+    width: 23%;
+    margin: 0.5%;
+    box-shadow: 4px 4px 8px rgba(37, 9, 31, 0.5);
+}
+
+#part-1 {
+    color: orangered;
+}
+
+#part-2 {
+    color:olivedrab;
+}
+
+.content {
+    color:hotpink;
+    font-size: 20px;
+    font-family: "Jost-Regular";
+    
+}
+
+.bold-c {
+    font-weight: bold;
+}
+
+.cat-pics {
+    background-color: rgb(239, 130, 243);
+    align-content: center;
+    
+}
+
+.light-p {
+    background-color: lightpink;
+}
+
+#pic01 {
+    position: static;
+}
