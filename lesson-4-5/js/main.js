@@ -6,7 +6,7 @@ function calcAmount() {
 
     let amountNumber = parseInt(amountInput.value);
 
-    amountNumber = isNaN(amountNumber) ? 0 : amountInput;
+    amountNumber = isNaN(amountNumber) ? 0 : amountNumber;
     
     if (amountNumber > 10) {
         alert("You cannot order more than 10 Meowrgers!");
